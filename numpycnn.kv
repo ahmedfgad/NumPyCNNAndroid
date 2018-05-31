@@ -1,0 +1,124 @@
+AppGUI:
+
+<AppGUI>:
+    canvas:
+        Color:
+            rgb: 1, 1, 1
+        Rectangle:
+            size: self.size
+    orientation: "vertical"
+    GridLayout:
+        size_hint_y: 8
+        cols: 3
+        spacing: "5dp", "5dp"
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl1
+                size_hint_y: 1
+                text: "Original"
+                color: 0, 0, 0, 1
+            Image:
+                source: "input_image.jpg"
+                id: img1
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl2
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img2
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl3
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img3
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl4
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img4
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl5
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img5
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl6
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img6
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl7
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img7
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl8
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img8
+                size_hint_y: 8
+                allow_stretch: True
+        BoxLayout:
+            orientation: "vertical"
+            Label:
+                id: lbl9
+                size_hint_y: 1
+                text: ""
+                color: 0, 0, 0, 1
+            Image:
+                id: img9
+                size_hint_y: 8
+                allow_stretch: True
+    GridLayout:
+        cols: 2
+        size_hint_y: 1
+        Button:
+            text: "Run First Conv. Layer"
+            on_press: root.start_cnn()
+            id: btn
+        Label:
+            text: "Click the button and wait for the response."
+            id: lbl_details
+            color: 0, 0, 0, 1
