@@ -5,6 +5,9 @@ This project builds Convolutional Neural Network (CNN) for Android using Kivy an
 It is based on a previous project called **NumPyCNN (https://github.com/ahmedfgad/NumPyCNN)** but it is now working on Android.
 The beaty of Kivy is that it not only allows Python code to work on different platforms (Android is one of them), but also to run the code without changes, as long as all requests are already supported by **python-for-android**.
 
+#### IMPORTANT
+**Training CNN on Android devices is deprecated because they can not work with large amounts of data and they are time consuming even for small amounts of data. Thus the main goal of the project is to link NumPy with Android and later a pre-trained CNN using NumPy on a more powerful machine can be used in Android for predictions.**
+
 The major changes done in the NumPyCNN to create its Android version **NumPyCNN** is using supported modules by python-for-android to do the task. In **NumPyCNN**, the unsupprted used modules are **skimage**, **Matplotlib**, and **sys**. The one used while being supported is NumPy.
 In **NumPyCNNAndroid**, **python image library (PIL)** is used to do the work by skimage. The GUI inside **Kivy** sufficient to do the job and thus no need to use Matplotlib. Some code changes applied to avoid using **sys**.
 
