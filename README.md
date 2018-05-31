@@ -28,10 +28,12 @@ For instructions about **installing Kivy and python-for-android**, read this art
 https://www.linkedin.com/pulse/python-android-start-building-kivy-cross-platform-applications-gad
 
 The project has the **Android Pckage Kit (APK)** file inside the **/NumPyCNNAndroid/bin/** directory for installation.   
-Once installed, the application will appear in the applications list as in the following figure:   
+Once installed, the application will appear in the applications list as in the following figure:
+
 ![screenshot_2018-05-31-14-11-03](https://user-images.githubusercontent.com/16560492/40783856-09969998-64e4-11e8-9746-f9ec13c1b850.png)
 
-Just open the application and wait until loading. Once opened, it will have the following layout in which the original image is shown at the top-left corner. There is also a label giving brief description about the the three layers and their final output size (output of pooling layer).   
+Just open the application and wait until loading. Once opened, it will have the following layout in which the original image is shown at the top-left corner. There is also a label giving brief description about the the three layers and their final output size (output of pooling layer).
+
 ![screenshot_2018-05-31-14-11-18](https://user-images.githubusercontent.com/16560492/40783916-3ccbf8b2-64e4-11e8-8de2-a9fa18b3232e.png)
 
 According to the NumPyCNN project and its article, the CNN example created has the following architecture:
@@ -49,12 +51,15 @@ Actually the user can not make changes to the app such as using different image,
 The application is designed to work on each three successive conv-relu-pool layers, show their outputs, return so that the user can execute the next three layers by clikcing a button at the bottom of the screen. The previous result before clicking the button will be used for further processing. 
 
 The result of applying the first conv-relu-pool layers after pressing the button is shown below:
+
 ![screenshot_2018-05-31-14-11-27](https://user-images.githubusercontent.com/16560492/40784228-54e4c55e-64e5-11e8-8c88-76e535cb1f7f.png)
 
 Pressing the button again will make the app go to the next conv-relu-pool layers and show their outputs as in the figure below:
+
 ![screenshot_2018-05-31-14-11-48](https://user-images.githubusercontent.com/16560492/40784262-6f8d086c-64e5-11e8-8b18-0fcdbc33a43f.png)
 
 Finally, the last conv-relu-pool layers are executed after pressing the button again and their results are shown as below:
+
 ![screenshot_2018-05-31-14-11-55](https://user-images.githubusercontent.com/16560492/40784373-ca6d221c-64e5-11e8-9877-d73747834175.png)
 
 For more info.: KDnuggets: https://www.kdnuggets.com/author/ahmed-gad  
