@@ -50,7 +50,7 @@ According to the NumPyCNN project and its article, the CNN example created has t
 Actually the user can not make changes to the app such as using different image, adding, removing, modifiying a layer.   
 The application is designed to work on each three successive conv-relu-pool layers, show their outputs, return so that the user can execute the next three layers by clikcing a button at the bottom of the screen. The previous result before clicking the button will be used for further processing. 
 
-The result of applying the first conv-relu-pool layers after pressing the button is shown below:
+The result of applying the first conv-relu-pool layers after pressing the button is shown below. The 2 filters used are for detecting horizontal and vertical edges. The filters used in the remaining two conv layers are randomly generated.
 
 ![screenshot_2018-05-31-14-11-27](https://user-images.githubusercontent.com/16560492/40784228-54e4c55e-64e5-11e8-8c88-76e535cb1f7f.png)
 
